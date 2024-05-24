@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* Set height to full viewport height */
+    width: 100vw;
+    /* Set width to full viewport width */
+    margin: 0;
+    /* Remove default margin */
+    background: linear-gradient(90deg, rgb(110, 104, 224) 0%, rgb(117, 117, 224) 45%, rgba(103, 87, 242, 0.937) 100%);
+}
+
+.signupContainer {
+    background-color: rgb(151, 215, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 50vw;
+    border-radius: 100px;
+    flex-direction: column;
+    box-shadow: 0 12px 16px rgba(255, 255, 255, 0.232);
+}
+
+.signupContainer h2{
+    text-decoration: underline;
+    color: #770197;
+}
+
+.signupContainer form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signupContainer input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+}
+
+.signupContainer [type=submit] {
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 10px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+.signupContainer [type=submit]:hover {
+    background-color: #2c74c1;
+}
+
+.signupContainer a {
+    color: black;
+    padding: 1rem;
+}
+
+.signupContainer a:hover {
+    color: white;
+}
